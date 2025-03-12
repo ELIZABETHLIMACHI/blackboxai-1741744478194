@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CPRA3_ELC</string>
+    <string name="title_computer_selection">Selección de Computador</string>
+    <string name="hint_brand">Marca</string>
+    <string name="hint_model">Modelo</string>
+    <string name="label_processor">Procesador</string>
+    <string name="label_ram">Memoria RAM</string>
+    <string name="label_storage">Almacenamiento</string>
+    <string name="btn_add">Adicionar</string>
+    <string name="btn_exit">Salir</string>
+    <string name="btn_back">Volver</string>
+
+    <!-- List view strings -->
+    <string name="title_computer_list">Computadores Seleccionados</string>
+    <string name="empty_list_message">No hay computadores seleccionados</string>
+    <string name="computer_image_description">Imagen del computador</string>
+
+    <!-- Detail view strings -->
+    <string name="title_computer_detail">Detalles del Computador</string>
+    <string name="detail_brand">Marca: %s</string>
+    <string name="detail_model">Modelo: %s</string>
+    <string name="detail_processor">Procesador: %s</string>
+    <string name="detail_ram">Memoria RAM: %s</string>
+    <string name="detail_storage">Almacenamiento: %s</string>
+
+    <string-array name="processor_options">
+        <item>Intel Core i3</item>
+        <item>Intel Core i5</item>
+        <item>Intel Core i7</item>
+        <item>Intel Core i9</item>
+        <item>AMD Ryzen 3</item>
+        <item>AMD Ryzen 5</item>
+        <item>AMD Ryzen 7</item>
+        <item>AMD Ryzen 9</item>
+    </string-array>
+
+    <string-array name="ram_options">
+        <item>4GB</item>
+        <item>8GB</item>
+        <item>16GB</item>
+        <item>32GB</item>
+        <item>64GB</item>
+    </string-array>
+
+    <string-array name="storage_options">
+        <item>256GB SSD</item>
+        <item>512GB SSD</item>
+        <item>1TB SSD</item>
+        <item>2TB SSD</item>
+        <item>1TB HDD</item>
+        <item>2TB HDD</item>
+    </string-array>
+</resources>
